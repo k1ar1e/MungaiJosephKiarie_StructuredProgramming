@@ -23,13 +23,13 @@ int N, i, Marks;
 
         printf("Enter Marks (0-100): ");
         scanf("%d", &Marks);
-    if ("Marks>=70") {
+    if (Marks>=70) {
         printf("Grade: A(Excellent)\n");
-       }else if ("Marks>=60") {
+       }else if (Marks>=60) {
             printf("Grade: B(Good)\n");
-            }else if ("Marks>=50") {
+            }else if (Marks>=50) {
                 printf("Grade: C(Average)\n");
-             }   else if ("Marks>=40") {
+             }   else if (Marks>=40) {
                     printf("Grade: D(Pass)\n");
               }      else {
                         printf("Grade: E(Fail)\n");
